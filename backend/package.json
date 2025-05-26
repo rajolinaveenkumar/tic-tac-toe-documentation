@@ -1,0 +1,21 @@
+{
+    "name": "Game 3 Tier App",
+    "version": "1.0.0",
+    "description": "A three-tier architecture game application",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["game", "3-tier", "nodejs", "mysql"],
+    "author": "Naveen Rajoli",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mysql2": "latest",
+      "moment": "latest"
+    }
+  }
+  
