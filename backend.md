@@ -34,7 +34,7 @@ Download the application code from github and paste it on /app directory.
 
 ```
 git clone <url>
-mv /home/ec2-user/tic-tac-toe-3tier/backend/* /app/
+mv /home/ec2-user/tic-tac-toe-documentation/backend/* /app/
 
 ```
 
