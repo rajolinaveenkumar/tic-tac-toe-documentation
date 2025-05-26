@@ -59,10 +59,10 @@ Description=Backend Service
 After=network.target
 
 [Service]
-User=game
-WorkingDirectory=/opt/game_app
+User=game_user
+WorkingDirectory=/app
 Environment=DB_HOST="<sql_private_ip>"
-ExecStart=/bin/node /opt/game_app/index.js
+ExecStart=/bin/node /app/index.js
 Restart=always
 SyslogIdentifier=backend
 StandardOutput=syslog
